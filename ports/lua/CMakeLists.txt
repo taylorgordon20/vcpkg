@@ -9,10 +9,6 @@
 
 PROJECT ( lua )
 
-IF( NOT WIN32 )
-    message( FATAL_ERROR "Written for window only" )
-ENDIF()
-
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
 SET (HDR_LIBLUA
